@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 위 3개의 메타 태그는 *반드시* head 태그의 처음에 와야합니다; 어떤 다른 콘텐츠들은 반드시 이 태그들 *다음에* 와야 합니다 -->
+    <title>Toss Web Framework</title>
+
+    <!-- Toss Framework CDN -->
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+
+  <body>
+
+    <header>
+    <!-- type 2 -->
+    <nav>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+              <!-- 네비게이션 로고 이미지 -->
+              <a href="/"><img class="logo" src="https://go.toss.im/framework-bt/assets/images/icon-bi-toss-blue.png"></a>
+              <!-- 네비게이션 메뉴 -->
+              <ul class="nav-menu">
+                
+                <a href="#start" class="nav-btn btn-tint-type2 pull-right">시작하기</a>
+                <a href="https://github.com/kkCheon/tossframe.git"><li class="pull-right"><span class="bold">Github</span> 저장소</li></a>
+                <a href="/grid/"><li class="pull-right"><span class="bold">CSS</span> 문서</li></a>
+                <!-- <a href="#"><li class="pull-right bold">About</li></a> -->
+                
+              </ul>
+              <!-- 모바일 햄버거 메뉴 버튼 -->
+              <a class="nav-menu-btn-mb" href="#">
+                <div id="nav-icon4">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                
+              </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="nav-menu-dropdown-mb">
+      <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <ul class="">
+                <a href=""><li>송금</li></a>
+                <a href="https://www.facebook.com/toss.revolution/videos/915742201878036/"><li>돈 받기</li></a>
+              </ul>
+            </div>
+            <div class="global-menu">
+            
+              <div class="col-xs-6">
+                <a href=""><li>토스</li></a>
+              </div>
+              <div class="col-xs-6">
+                <a href="https://toss.im/pay"><li>비즈니스</li></a>
+              </div>
+              <div class="col-xs-6">
+                <a href="https://toss.im/toss/team"><li>팀</li></a>
+              </div>
+              <div class="col-xs-6">
+                <a href="https://toss.im/faq"><li>고객센터</li></a>
+              </div>
+            
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+    <div class="nav-menu-cover"></div>
+    </header
+
+
+    <div class="page-content">
+        <section class="typography">
+<div class="container" style="margin-top:40px">
+	<div class="row">
+			
+			
+
+
+			
+
+				<div class="col-sm-3">
+  <nav class="menu docs-menu">
+    <a class="menu-item " href="/grid/">
+      그리드 
+    </a>
+    <a class="menu-item selected" href="/typography/">
+      글꼴
+    </a>
+    <a class="menu-item " href="/colors/">
+      색상
+    </a>
+    <a class="menu-item " href="/buttons/">
+      버튼
+    </a>
+    
+  </nav>
+</div>
+
+				<div class="col-sm-9">
+					<article class="post">
+
+					  <div class="post-header markdown-body">
+					    <h1 class="post-title">글꼴</h1>
+					  </div>
+
+					  <div class="markdown-body">
+							<p>토스의 서체는 <a href="http://spoqa-han-sans.com">스포카 한 산스</a>를 사용합니다.
+글꼴 파일은 이미 스타일 가이드에 포함되어 있습니다.</p>
+
+<h2 id="section">목차</h2>
+
+<ul id="markdown-toc">
+  <li><a href="#section" id="markdown-toc-section">목차</a></li>
+  <li><a href="#section-1" id="markdown-toc-section-1">헤드라인</a></li>
+  <li><a href="#section-2" id="markdown-toc-section-2">두께</a></li>
+  <li><a href="#section-3" id="markdown-toc-section-3">문단 &amp; 줄간격</a></li>
+  <li><a href="#section-4" id="markdown-toc-section-4">정렬</a></li>
+  <li><a href="#section-5" id="markdown-toc-section-5">부트스트랩 요소</a></li>
+</ul>
+
+<h2 id="section-1">헤드라인</h2>
+
+<p><code class="highlighter-rouge">h1</code>부터 <code class="highlighter-rouge">h6</code>까지의 헤드라인은 모두 기본 글자의 크기인 <code class="highlighter-rouge">16px</code>에 비례하도록 설계하였습니다. 
+따라서 기본 글자의 크기와 줄 간격을 변경하면, 나머지 글자들도 알맞게 수정됩니다.</p>
+
+<div class="docs-example clearfix"><div class="col-12">
+    <h1>h1. 토스는 금융 서비스입니다.(41px)</h1>
+    <h2>h2. 토스는 금융 서비스입니다.(34px)</h2>
+    <h3>h3. 토스는 금융 서비스입니다.(28px)</h3>
+    <h4>h4. 토스는 금융 서비스입니다.(20px)</h4>
+    <h5>h5. 토스는 금융 서비스입니다.(16px)</h5>
+    <h6>h6. 토스는 금융 서비스입니다.(14px)</h6>
+</div></div>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-12"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;h1&gt;</span>h1. 토스는 금융 서비스입니다.(41px)<span class="nt">&lt;/h1&gt;</span>
+    <span class="nt">&lt;h2&gt;</span>h2. 토스는 금융 서비스입니다.(34px)<span class="nt">&lt;/h2&gt;</span>
+    <span class="nt">&lt;h3&gt;</span>h3. 토스는 금융 서비스입니다.(28px)<span class="nt">&lt;/h3&gt;</span>
+    <span class="nt">&lt;h4&gt;</span>h4. 토스는 금융 서비스입니다.(20px)<span class="nt">&lt;/h4&gt;</span>
+    <span class="nt">&lt;h5&gt;</span>h5. 토스는 금융 서비스입니다.(16px)<span class="nt">&lt;/h5&gt;</span>
+    <span class="nt">&lt;h6&gt;</span>h6. 토스는 금융 서비스입니다.(14px)<span class="nt">&lt;/h6&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></div>
+
+<h2 id="section-2">두께</h2>
+
+<p><code class="highlighter-rouge">strong</code> 태그를 사용하면 글자를 강조할 수 있습니다.
+클래스 이름에 <code class="highlighter-rouge">Thin</code>, <code class="highlighter-rouge">Regular</code>, <code class="highlighter-rouge">Bold</code>를 추가하여 글자의 두께를 조절할 수 있습니다.</p>
+
+<div class="docs-example clearfix"><h4 class="thin">Thin. 얇은 font-weight가 필요하다면 class에 thin을 추가해보세요.</h4>
+<h4 class="regular">Regular. 기본 font-wight가 필요하다면 class에 regular를 추가해보세요.</h4>
+<h4 class="bold">Bold. 두꺼운 font-weight가 필요하다면 class에 bold를 추가해보세요.</h4></div>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;h4</span> <span class="na">class=</span><span class="s">"thin"</span><span class="nt">&gt;</span>Thin. 얇은 font-weight가 필요하다면 class에 thin을 추가해보세요.<span class="nt">&lt;/h4&gt;</span>
+<span class="nt">&lt;h4</span> <span class="na">class=</span><span class="s">"regular"</span><span class="nt">&gt;</span>Regular. 기본 font-wight가 필요하다면 class에 regular를 추가해보세요.<span class="nt">&lt;/h4&gt;</span>
+<span class="nt">&lt;h4</span> <span class="na">class=</span><span class="s">"bold"</span><span class="nt">&gt;</span>Bold. 두꺼운 font-weight가 필요하다면 class에 bold를 추가해보세요.<span class="nt">&lt;/h4&gt;</span></code></pre></div>
+
+<h2 id="section-3">문단 &amp; 줄간격</h2>
+
+<p>아래 문단은 css style을 적용하지 않은 기본적인 문단과 글줄의 간격입니다.
+- 기본적으로 글줄 간격은 (<code class="highlighter-rouge">line-height:1.6</code>)으로 지정되어있습니다. 
+- 문단의 간격은 (글자 크기 x 글줄) 만큼 지정되어있어습니다.</p>
+
+<div class="docs-example clearfix"><h1>토스의 블로그</h1>
+
+  <h3>통일된 디자인 가이드가 필요하다. </h3>
+  <p>그 가이드는 그려야 할 필요가 없는 것이다. 웹페이지 제작 시간을 단축하고, 고민해야할 부분에 더 시간을 할애할 필요가 있다. 늘 공통적으로 쓰이는 콤포넌트들을 매번 새로 작성하는 것은 비효율적이다.</p>
+
+  <h3>디자이너가 직접 할 수 밖에 없다.</h3>
+  <p>토스의 특성상, 프론트-앤드 개발을  그렇다면, 코드에 대한 숙련도가 낮은 상황에서도 쉽게 작성할 수 있도록 해야 한다. 코드를 모르는 디자이너가, 직접 웹페이지를 작성하기까지의 시간을 단축해야한다.</p></div>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;h1&gt;</span>토스의 블로그<span class="nt">&lt;/h1&gt;</span>
+
+  <span class="nt">&lt;h3&gt;</span>통일된 디자인 가이드가 필요하다. <span class="nt">&lt;/h3&gt;</span>
+  <span class="nt">&lt;p&gt;</span>그 가이드는 그려야 할 필요가 없는 것이다. 웹페이지 제작 시간을 단축하고, 고민해야할 부분에 더 시간을 할애할 필요가 있다. 늘 공통적으로 쓰이는 콤포넌트들을 매번 새로 작성하는 것은 비효율적이다.<span class="nt">&lt;/p&gt;</span>
+
+  <span class="nt">&lt;h3&gt;</span>디자이너가 직접 할 수 밖에 없다.<span class="nt">&lt;/h3&gt;</span>
+  <span class="nt">&lt;p&gt;</span>토스의 특성상, 프론트-앤드 개발을  그렇다면, 코드에 대한 숙련도가 낮은 상황에서도 쉽게 작성할 수 있도록 해야 한다. 코드를 모르는 디자이너가, 직접 웹페이지를 작성하기까지의 시간을 단축해야한다.<span class="nt">&lt;/p&gt;</span></code></pre></div>
+
+<h2 id="section-4">정렬</h2>
+
+<p>왼쪽 정렬은 기본값으로 설정되어있으며,
+가운데 정렬이나 오른 쪽 정렬을 원한다면 각각 text-center, text-right클래스를 정렬하고 싶은 개체의 부모요소에 적용해주면 됩니다.</p>
+
+<div class="docs-example clearfix"><div class="col-12 highlight text-left">
+<p>클래스 이름에 "text-left"를 추가해보세요. 왼쪽으로 정렬됩니다.</p>
+</div>
+<div class="col-12 highlight text-center">
+<p>클래스 이름에 "text-center"를 추가해보세요. 가운데로 정렬됩니다.</p>
+</div>
+<div class="col-12 highlight text-right">
+<p>클래스 이름에 "text-right"를 추가해보세요. 오른쪽으 정렬됩니다.</p>
+</div></div>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-12 highlight text-left"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;p&gt;</span>클래스 이름에 "text-left"를 추가해보세요. 왼쪽으로 정렬됩니다.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-12 highlight text-center"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;p&gt;</span>클래스 이름에 "text-center"를 추가해보세요. 가운데로 정렬됩니다.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-12 highlight text-right"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;p&gt;</span>클래스 이름에 "text-right"를 추가해보세요. 오른쪽으 정렬됩니다.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></div>
+
+<h2 id="section-5">부트스트랩 요소</h2>
+
+<p>더 자세한 내용은 <a href="http://bootstrapk.com/css/#리드-문단-">여기</a>를 눌러 확인하세요.</p>
+
+<div class="docs-example clearfix"><p class="lead">리드 Class를 사용하여 문단을 강조합니다.</p>
+<p>당신은 <mark>강조할</mark> 텍스트에 mark 태그를 사용할 수 있습니다.</p>
+<p><del>이 텍스트줄은 삭제된 텍스트로 다뤄짐을 의미합니다.</del></p>
+<p><s>이 텍스트줄은 더 이상 정확하지 않다고 다뤄짐을 의미합니다.</s></p>
+<p><ins>이 텍스트줄은 문서에 추가분으로 다뤄짐을 의미합니다.</ins></p>
+<p><u>이 텍스트줄은 밑줄이 그어질것입니다</u></p>
+<p><small>이 텍스트는 작게 보이도록 되어 있습니다.</small></p>
+<p><strong>두꺼운 텍스트로 렌더링 됩니다</strong></p>
+<p><em>이탤릭체로 렌더링 됩니다</em></p>
+<blockquote>
+  <p>인용문을 작성할 수 있습니다.</p>
+</blockquote></div>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"lead"</span><span class="nt">&gt;</span>리드 Class를 사용하여 문단을 강조합니다.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p&gt;</span>당신은 <span class="nt">&lt;mark&gt;</span>강조할<span class="nt">&lt;/mark&gt;</span> 텍스트에 mark 태그를 사용할 수 있습니다.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p&gt;&lt;del&gt;</span>이 텍스트줄은 삭제된 텍스트로 다뤄짐을 의미합니다.<span class="nt">&lt;/del&gt;&lt;/p&gt;</span>
+<span class="nt">&lt;p&gt;&lt;s&gt;</span>이 텍스트줄은 더 이상 정확하지 않다고 다뤄짐을 의미합니다.<span class="nt">&lt;/s&gt;&lt;/p&gt;</span>
+<span class="nt">&lt;p&gt;&lt;ins&gt;</span>이 텍스트줄은 문서에 추가분으로 다뤄짐을 의미합니다.<span class="nt">&lt;/ins&gt;&lt;/p&gt;</span>
+<span class="nt">&lt;p&gt;&lt;u&gt;</span>이 텍스트줄은 밑줄이 그어질것입니다<span class="nt">&lt;/u&gt;&lt;/p&gt;</span>
+<span class="nt">&lt;p&gt;&lt;small&gt;</span>이 텍스트는 작게 보이도록 되어 있습니다.<span class="nt">&lt;/small&gt;&lt;/p&gt;</span>
+<span class="nt">&lt;p&gt;&lt;strong&gt;</span>두꺼운 텍스트로 렌더링 됩니다<span class="nt">&lt;/strong&gt;&lt;/p&gt;</span>
+<span class="nt">&lt;p&gt;&lt;em&gt;</span>이탤릭체로 렌더링 됩니다<span class="nt">&lt;/em&gt;&lt;/p&gt;</span>
+<span class="nt">&lt;blockquote&gt;</span>
+  <span class="nt">&lt;p&gt;</span>인용문을 작성할 수 있습니다.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/blockquote&gt;</span></code></pre></div>
+
+
+					  </div>
+
+					</article>
+				</div>
+			
+
+			
+
+	</div>
+</div>
+</section>
+    </div>
+
+  </body>
+
+</html>
